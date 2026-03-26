@@ -10,3 +10,7 @@ Apresentar uma solução de chatbot orientada a atendimento digital, com foco em
 - monitoramento contínuo da qualidade;
 - governança de documentação e versionamento.
 
+## Estrutura do repositório
+- `src/app/`: esqueleto de código da aplicação;
+- `requirements.txt`: dependências mínimas;
+- `Dockerfile`: execução containerizada simples.
