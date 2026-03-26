@@ -12,6 +12,7 @@ Apresentar uma solução de chatbot orientada a atendimento digital, com foco em
 
 ## Estrutura do repositório
 - `src/app/`: esqueleto de código da aplicação;
+- `tests/`: testes iniciais de comportamento;
 - `requirements.txt`: dependências mínimas;
 - `Dockerfile`: execução containerizada simples.
 
