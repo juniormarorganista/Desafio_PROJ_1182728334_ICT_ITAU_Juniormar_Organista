@@ -37,3 +37,8 @@ uvicorn src.app.main:app --reload
 }
 ```
 
+## Resultado esperado
+O serviço identifica a intenção, seleciona o fluxo, gera resposta inicial e registra métricas simples de execução.
+
+## Observação
+O código incluído aqui tem papel demonstrativo e arquitetural. Em um projeto real, a camada de NLU, integrações, autenticação, observabilidade e critérios de segurança seriam aprofundados conforme os requisitos de negócio e as políticas da organização.
