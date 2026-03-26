@@ -14,3 +14,13 @@ Apresentar uma solução de chatbot orientada a atendimento digital, com foco em
 - `src/app/`: esqueleto de código da aplicação;
 - `requirements.txt`: dependências mínimas;
 - `Dockerfile`: execução containerizada simples.
+
+## Como executar o protótipo
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+# .venv\Scripts\activate  # Windows
+
+pip3 install -r requirements.txt
+uvicorn src.app.main:app --reload
+```
