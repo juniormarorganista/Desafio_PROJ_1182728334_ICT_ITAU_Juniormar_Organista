@@ -11,10 +11,11 @@ Apresentar uma solução de chatbot orientada a atendimento digital, com foco em
 - governança de documentação e versionamento.
 
 ## Estrutura do repositório
+- `docs/`: documentação funcional, técnica e de validação;
+- `Dockerfile`: execução containerizada simples.
+- `requirements.txt`: dependências mínimas;
 - `src/app/`: esqueleto de código da aplicação;
 - `tests/`: testes iniciais de comportamento;
-- `requirements.txt`: dependências mínimas;
-- `Dockerfile`: execução containerizada simples.
 
 ## Como executar o protótipo
 ```bash
