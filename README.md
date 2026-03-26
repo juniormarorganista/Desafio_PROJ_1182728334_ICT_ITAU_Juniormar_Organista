@@ -26,3 +26,14 @@ source .venv/bin/activate  # Linux/macOS
 pip3 install -r requirements.txt
 uvicorn src.app.main:app --reload
 ```
+
+## Endpoint principal
+- `POST /chat`
+- Exemplo de payload:
+```json
+{
+  "session_id": "abc-123",
+  "message": "Quero acompanhar meu protocolo 98765"
+}
+```
+
